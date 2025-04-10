@@ -1,0 +1,18 @@
+{
+    "common": {
+        "button": {
+            "search": "Search"
+        }
+    },
+    "banner":{
+        "title": "Lorem ipsum dolor sit amet consecte",
+        "descript":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid at, fugiat id inventore vitae expedita quam, voluptatibus autem recusandae nam obcaecati atque soluta ea! Expedita odio vero aspernatur vel.",
+        "company": "Demo Technology.,LTD",
+        "describe": "Lorem ipsum, dolor sit amet consectetur adipisicing elit"
+    },
+    "footer": {
+        "contact": "Contact",
+        "input": "Số điện thoại hoặc địa chỉ Email",
+        "button":"Sent"
+    }
+}
