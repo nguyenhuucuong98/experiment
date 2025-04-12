@@ -9,8 +9,11 @@ const Pages = () => {
     <>
         <Header />
         <Banner />
+        <div className="pb-30"> 
+
         <International />
         <Content />
+        </div>
         <Footer />
     </>
   )

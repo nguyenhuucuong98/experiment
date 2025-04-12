@@ -9,6 +9,9 @@ import Img5 from '../assets/introduction/introduction-5.jpg'
 import Img6 from '../assets/introduction/introduction-6.jpg'
 import Img7 from '../assets/introduction/introduction-7.jpg'
 import Img8 from '../assets/introduction/introduction-8.jpg'
+import content from '../assets/content/inner_home_02_01.jpg'
+import contentRight from '../assets/content/anti-arrow-gray-right.png'
+import contentLeft from '../assets/content/anti-arrow-gray-left.png'
 
 export const ImgFile = {
         Logo:Logo,
@@ -26,4 +29,11 @@ export const SliderImg = {
         slide_6: Img6,
         slide_7: Img7,
         slide_8: Img8,
+}
+
+
+export const ContentImg = {
+        content: content,
+        contentLeft: contentLeft,
+        contentRight: contentRight,
 }

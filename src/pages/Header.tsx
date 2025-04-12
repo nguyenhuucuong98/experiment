@@ -52,12 +52,12 @@ const Header = () => {
 
 
     return (
-        <div className='w-full size-14 flex items-center bg-color text-color' id="header_shadow">
+        <div className='w-full  size-14 flex items-center bg-transparent text-color fixed top-0 z-50 ' id="header_shadow">
             <div className='w-6xl mr-auto ml-auto block '>
                 <div className='flex justify-between content-center'>
                     <div className="w-[100px]"><img src={ImgFile.Logo} alt="logo" /></div>
                     <div className="flex justify-between">
-                        <ul className="flex justify-between gap-4 uppercase">
+                        <ul className="flex justify-between gap-4 uppercase text-white menu-list">
                             {
                                 MenuItems.map(value => {
                                     return (

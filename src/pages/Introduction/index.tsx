@@ -1,12 +1,18 @@
+import { useEffect } from "react";
 import { SliderImg } from "../../parent/ImgFile"
-
+import AOS from "aos";
 
 const International = () => {
 
+  useEffect(()=> {
+    AOS.init({
+      duration: 1000
+    })
+  },[])
 
   return (
-    <div className='w-6xl  mr-auto ml-auto mt-10 relative'>
-      <div className="slider-img" >
+    <div  className='w-7xl  mr-auto ml-auto mt-10 relative'>
+      <div data-aos='zoom-in-down' className="slider-img" >
         <div className="slide-strack">
           <div className="slide"><img src={SliderImg.slide_1} alt="slide-1" /></div>
           <div className="slide"><img src={SliderImg.slide_2} alt="slide-2" /></div>
